@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 1rem;
+}
+nav{
+    position:absolute;
+    right: 1.5rem;
+}
+
+header{
+    border: 2px black solid;
+    height: 10vh;
+
+}
+main{
+    height: 80vh;
+    border: 2px black solid;
+}
+
+footer{
+    height: 10vh;
+    border: 2px black solid;
+}
+figure, nav{
+    display: inline-block;
+}
+figure{
+    margin: 1rem;
+}
+.info, .social{
+    margin: 1rem;
+    display: inline-block;
+}
+.info{
+    position: absolute;
+    right: 1.5rem;
+}
+
+aside, section{
+    border: 2px black solid;
+    display: inline-block;
+    height: 80vh;
+}
+aside{
+    width: 20vw;
+}
+section{
+    padding: 1rem;
+    left: 20vw ;
+    width: 80vw;
+    position: absolute;
+}
+aside div {
+    border: 2px black solid;
+    height: 15vh;
+    margin: 3vh;
+}
+
